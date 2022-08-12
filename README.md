@@ -39,7 +39,11 @@ Solution: The answer fields can be styled using CSS by having buttons and changi
 
 ### Future Developments
 
-- 
+- Audio Functions
+  - For Background
+    -  <audio controls> <source src="horse.ogg" type="audio/ogg" </audio> 
+  - JS When question is correct/incorrect(also for results (win/loss screen))
+    - .addEventListener("click") if/else
 
 ### Deployment
 
