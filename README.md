@@ -15,3 +15,5 @@ This is a trivia game where the user is prompted to answer 10 multiple choice qu
 - Wednesday: Finished Prototype, Editing
 - Thursday: Editing and Completion
 - Friday: Presentation
+
+![This is an image]()
