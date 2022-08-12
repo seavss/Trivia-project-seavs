@@ -16,11 +16,13 @@ This is a trivia game where the user is prompted to answer 10 multiple choice qu
 - Thursday: Editing and Completion
 - Friday: Presentation
 
+```
 *landing page
 *game initialization
 *playing the game
 *winning the game
 *winning prize
+```
 
 ### Technologies Used
 
