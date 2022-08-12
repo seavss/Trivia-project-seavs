@@ -26,7 +26,10 @@ This is a trivia game where the user is prompted to answer 10 multiple choice qu
 
 ### Technologies Used
 
-HTML and CSS for the website and Javascript for question/answer part.
+- HTML
+- CSS
+- Javascript
+- JQuery
 
 Problems with implementation: The answers are not in a,b,c format, they are clicked on and the color background changes. And I would need to load random questions, not the same ones in the same order.
 
