@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Trivia - seavs</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+</head>
+
+<body>
+    <!-- Welcome Page -->
+<div class="screen" id="welcome-screen">
+	<h1>Trivia!</h1>
+	<h2>Good Luck!</h2>
+    <p>Instructions: You will be given 10 questions, and you will be given your score at the end.</p>
+    <br>
+    <button class= "button" onClick="document.getElementById('start').scrollIntoView();">Start</button>
+    <br>
+</div>
+
+  <!-- Question Page/Question #1 -->
+<div class="screen" id="wrapper">
+<div class= "random">
+	<h2 id= "start">Which member of the Beatles had dyslexia?</h2>
+		  <div class="answer-choice">
+			<br>
+        <button class= "button" id="q1a1">John Lennon</button>
+      </div>
+      <div class="answer-choice-wrong">
+        <br>
+        <button class= "button" id="q1a2">Ringo Star</button
+      </div>
+      <div class="answer-choice-wrong">
+        <br>
+        <button class= "button" id="q1a3">Paul McCartney</button>
+      </div>
+</div>
+<br>
+  <!-- Question #2 -->
+<div class= "random">
+    <h2>How many noses does a slug have?</h2>
+<br>
+      <div class="answer-choice-wrong">
+        <br>
+        <button class= "button" id="q2a1">1</button>
+      </div>
+      <div class="answer-choice">
+        <br>
+        <button class= "button" id="q2a2">4</button>
+      </div>
+      <div class="answer-choice-wrong">
+        <br>
+        <button class= "button" id="q2a3">2</button>
+      </div>
+</div>
+<br>
+  <!-- Question #3 -->
+<div class= "random">
+    <h2>Which country produces the most coffee in the world?</h2>
+        <div class="answer-choice-wrong">
+            <br>
+            <button class= "button" id="q3a1">Africa</button>
+        </div>
+        <div class="answer-choice">
+            <br>
+            <button class= "button" id="q3a2">Brazil</button>
+        </div>
+        <div class="answer-choice-wrong">
+            <br>
+            <button class= "button" id="q3a3">Japan</button>
+        </div>
+</div>
+<br>
+  <!-- Question #4 -->
+<div class= "random">
+      <h2 id= "start">Is having a little stress good for you?</h2>
+          <div class="answer-choice">
+          <br>
+            <button class= "button" id="q4a1">Yes</button>
+          </div>
+          <div class="answer-choice-wrong">
+            <br>
+            <button class= "button" id="q4a2">No</button>
+          </div>
+</div>
+    <br>
+  <!-- Question #5 -->
+<div class= "random">
+      <h2 id= "start">Which State is Area 51 located in</h2>
+        <div class="answer-choice">
+          <br>
+            <button class= "button" id="q5a1">Nevada</button>
+        </div>
+          <div class="answer-choice-wrong">
+            <br>
+            <button class= "button" id="q5a2">California</button
+          </div>
+          <div class="answer-choice-wrong">
+            <br>
+            <button class= "button" id="q5a3">New Mexico</button>
+          </div>
+</div>
+    <br>
+  <!-- Question #6 -->
+<div class= "random">
+      <h2 id= "start">What is Cynophobia the fear of?</h2>
+        <div class="answer-choice-wrong">
+          <br>
+            <button class= "button" id="q6a1">Crabs</button>
+        </div>
+        <div class="answer-choice">
+            <br>
+            <button class= "button" id="q6a2">Dogs</button
+        </div>
+        <div class="answer-choice-wrong">
+            <br>
+            <button class= "button" id="q6a3">Attention</button>
+        </div>
+</div>
+    <br>
+  <!-- Question #7 -->
+    <div class= "random">
+      <h2 id= "start">What item is the werewolf most afraid of?</h2>
+        <div class="answer-choice-wrong">
+          <br>
+            <button class= "button" id="q7a1">Stakes</button>
+          </div>
+          <div class="answer-choice-wrong">
+            <br>
+            <button class= "button" id="q7a2">Garlic</button
+          </div>
+          <div class="answer-choice">
+            <br>
+            <button class= "button" id="q7a3">Silver</button>
+          </div>
+    </div>
+    <br>
+  <!-- Question #8 -->
+<div class= "random">
+      <h2 id= "start"> What is the airspeed velocity of an unladen swallow? </h2>
+          <div class="answer-choice">
+          <br>
+            <button class= "button" id="q8a1">36mph</button>
+          </div>
+          <div class="answer-choice-wrong">
+            <br>
+            <button class= "button" id="q8a2">70mph</button
+          </div>
+          <div class="answer-choice-wrong">
+            <br>
+            <button class= "button" id="q8a3">17mph</button>
+          </div>
+</div>
+    <br>
+  <!-- Question #9 -->
+<div class= "random">
+      <h2 id= "start">What alcoholic drink is mainly made from juniper berries?</h2>
+          <div class="answer-choice-wrong">
+          <br>
+            <button class= "button" id="q9a1">Whiskey</button>
+          </div>
+          <div class="answer-choice">
+            <br>
+            <button class= "button" id="q9a2">Gin</button
+          </div>
+          <div class="answer-choice-wrong">
+            <br>
+            <button class= "button" id="q9a3">Vodka</button>
+          </div>
+</div>
+    <br>
+  <!-- Question #10 -->
+<div class= "random">
+      <h2 id= "start">What is the last letter of the Greek alphabet?</h2>
+          <div class="answer-choice-wrong">
+          <br>
+            <button class= "button" id="q10a1">Alpha</button>
+          </div>
+          <div class="answer-choice">
+            <br>
+            <button class= "button" id="q10a2">Omega</button
+          </div>
+          <div class="answer-choice-wrong">
+            <br>
+            <button class= "button" id="q10a3">Psi</button>
+          </div>
+</div>
+    <br>
+<br>
+<a href="#" onclick="return switch01('cont')">Results</a> 
+</div>
+    <!-- Results and Reset -->
+  <div id= "cont">
+    <h2 id="result">Your score...</h2>
+      <br>
+      <button class="myBtn" onClick="window.location.reload(); "onClick="document.getElementById('hori').scrollIntoView();">Restart</button>
+  <br>
+<footer> 
+    <a href "https://www.linkedin.com/in/seaver-smith-141810204/">Seaver Smith - 2022</a>
+  </div>
+</footer>
+    <script src="script.js"></script>
+
+  </body>
+</html>
