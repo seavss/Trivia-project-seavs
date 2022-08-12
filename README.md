@@ -16,7 +16,7 @@ This is a trivia game where the user is prompted to answer 10 multiple choice qu
 - Thursday: Editing and Completion
 - Friday: Presentation
 
-###Technologies Used
+### Technologies Used
 
 HTML and CSS for the website and Javascript for question/answer part.
 
