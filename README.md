@@ -26,4 +26,4 @@ Solution:
 
 ### Deployment
 
-[I'm an inline-style link](unique-clafoutis-0174b3.netlify.app)
+[Project is Available Here](https://unique-clafoutis-0174b3.netlify.app/)
